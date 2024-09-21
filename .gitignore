@@ -1,9 +1,25 @@
-venv
-.env
+GITIGNORE
+# Byte-compiled / optimized / DLL files
 __pycache__/
-.idea
-.git
+*.py[cod]
+*$py.class
 
-# Jupyter Notebook
-.ipynb_checkpoints
-.DS_Store
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# VS Code
+.vscode/
+# PyCharm
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
